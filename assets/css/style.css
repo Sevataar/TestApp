@@ -1,22 +1,68 @@
 body {
-    background-color: black;
+    text-align: left;
     font-family: "Museo Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #fff;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 header {
+    display: block;
+    width: 100%;
     box-sizing: border-box;
     background-image: url(https://seo-akademiya.imgix.net/site-assets/dist/images/header-bg.jpg?q=75&fm=jpg&bg=white&w=1920&h=987&fit=crop&sat=-100);
-    display: block;
-    font-family: "Museo Sans", sans-serif;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .top-row {
     box-sizing: border-box;
-    display: block;
+    overflow: hidden;
+    padding-top: 32px;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.main-dates {
-    display: block;
+.logo {
+    position: relative;
+    width: 33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    border-style: none;
+    height: auto;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: center;
+}
+
+.logo-intro{
+    font-size: .8rem;
+    padding-top: .25rem;
+    padding-left: 1.7rem;
+}
+
+.header-dates {
+    position: relative;
+    width: 66%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .primary-dates {
