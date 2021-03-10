@@ -1,5 +1,4 @@
 body {
-    color: black;
     background-color: black;
     font-family: "Museo Sans", sans-serif;
 }
@@ -16,7 +15,7 @@ header {
     display: block;
 }
 
-.main-dates{
+.main-dates {
     display: block;
 }
 
