@@ -6,9 +6,12 @@ body {
     background: #fff;
     font-size: 14px;
     width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
+    color: #43464b
+}
+
+a{
+    color: #43464b
 }
 
 header {
@@ -27,6 +30,7 @@ header {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 .top-row {
@@ -39,12 +43,14 @@ header {
 
 .logo {
     position: relative;
-    width: 33%;
+    width: 25%;
     padding-left: 15px;
     padding-right: 15px;
+    display: inline-block;
+    text-align: left;
 }
 
-img{
+img {
     border-style: none;
     height: auto;
     display: inline-block;
@@ -52,17 +58,22 @@ img{
     vertical-align: center;
 }
 
-.logo-intro{
+.logo-intro {
     font-size: .8rem;
     padding-top: .25rem;
-    padding-left: 1.7rem;
+    padding-left: 8px;
+    line-height: 0px;
 }
 
 .header-dates {
     position: relative;
+    flex: 0 0 66%;
     width: 66%;
     padding-left: 15px;
     padding-right: 15px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
 }
 
 .primary-dates {
