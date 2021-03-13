@@ -64,8 +64,7 @@ img {
 .logo-intro {
     font-size: .8rem;
     padding-top: .25rem;
-    padding-left: 8px;
-    line-height: 0px;
+    line-height: .8rem;
 }
 
 .header-dates {
