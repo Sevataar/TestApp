@@ -6,7 +6,7 @@ body {
     font-size: 14px;
     width: 100%;
     color: #43464b;
-    margin: 0;
+    margin: 0px;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 p {
-    margin: 0;
+    margin: 0px;
 }
 
 header {
@@ -27,8 +27,13 @@ header {
     background-position: center;
 }
 
+.top-container {
+    padding-top: 0px;
+}
+
 .container {
     width: 100%;
+    padding-top: 32px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -38,7 +43,6 @@ header {
 .top-row {
     box-sizing: border-box;
     overflow: hidden;
-    padding-top: 32px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -52,6 +56,7 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
+    text-align: left;
 }
 
 img {
@@ -65,12 +70,12 @@ img {
 .logo-intro {
     font-size: .8rem;
     padding-top: .25rem;
+    padding-left: 1.7rem;
     line-height: .9rem;
 }
 
 .header-dates {
     position: relative;
-    flex: 0 0 66%;
     width: 66%;
     padding-left: 15px;
     padding-right: 15px;
@@ -78,6 +83,40 @@ img {
     font-size: 1.5rem;
 }
 
+.dates {
+    text-align: left;
+}
+
 .primary-dates {
     color: #f16334;
+}
+
+@media (min-width: 992px) {
+    .header-dates {
+        margin-left: 8.33333%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 992px) {
+    .left-text-1 {
+        font-size: 1.8rem !important;
+    }
 }
