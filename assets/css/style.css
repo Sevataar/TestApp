@@ -12,6 +12,9 @@ body {
 a {
     color: #43464b
 }
+p{
+    margin: 0;
+}
 
 header {
     display: block;
@@ -29,17 +32,15 @@ header {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
 }
 
 .top-row {
     box-sizing: border-box;
     overflow: hidden;
     padding-top: 32px;
-    margin-right: -15px;
-    margin-left: -15px;
     text-align: center;
 }
+
 
 .logo {
     position: relative;
