@@ -72,7 +72,6 @@ header {
     justify-content: center;
 }
 
-
 .logo {
     position: relative;
     width: 25%;
@@ -147,10 +146,22 @@ img {
     color: #f16334;
 }
 
+.colums{
+    flex-wrap: wrap;
+}
+
+.left-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
 .left-column {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .left-text-1 {
@@ -165,7 +176,6 @@ img {
     color: #000;
     font-weight: 900;
 }
-
 
 @media only screen and (min-width: 992px) {
     .logo-intro {
@@ -313,28 +323,31 @@ img {
     display: inline-flex;
 }
 
-.right-column {
+.right-container{
+    padding-left: 15px;
+    padding-right: 15px;
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+.right-column {
     border: 5px solid #f16334;
     border-radius: .5rem;
     box-shadow: 0 0 2rem rgba(241, 99, 52, .25);
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
     background-color: #fff;
     padding: 1.5rem;
-    display: flex;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
-    .right-column {
+    .right-container {
         margin-left: 0;
     }
 }
 
 @media (min-width: 992px) {
-    .right-column {
+    .left-column,
+    .right-container{
         flex: 0 0 50%;
         max-width: 50%;
     }
