@@ -10,8 +10,7 @@
   <title>Самостоятельно в ТОП-3 Google и Яндекс - Академия SEO</title>
 
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="preload" as="font" href="https://cdn.seoakad.com/fonts/seoakademiya/seoakademiya.woff2" type="font/woff2"
-    crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 </head>
 
 <body>
@@ -74,9 +73,9 @@
                         <label for="sa_email" class="label">Ваш e-mail</label>
                         <input type="email" class="form-control" id="sa_email" placeholder="Введите Ваш e-mail">
                       </div>
-                      <div class="form-group">
+                      <div class="form-group flex">
                         <label for="sa_phone" class="lebel">Телефон</label>
-                        <input type="text" class="form-control" id="sa_phone" placeholder="">
+                        <input id="phone-1" class="form-control" type="tel" name="phone" />
                         <div class="sms-reminder">Номер телефона используется ТОЛЬКО
                           для напоминания о вебинаре
                         </div>
@@ -105,7 +104,7 @@
       </div>
     </header>
     <main class="main">
-      <div class="container row trening-plan flex">
+      <div class="container row trening-plan flex align-items-center">
         <div class="columns left-trening">
           <h2 class="margbot-1"><span class="primary-color strong">Этот тренинг</span> - ваш готовый план</h2>
           <div class="margbot-1">
@@ -228,9 +227,9 @@
                     <label for="sa_email" class="label">Ваш e-mail</label>
                     <input type="email" class="form-control" id="sa_email" placeholder="Введите Ваш e-mail">
                   </div>
-                  <div class="form-group">
+                  <div class="form-group flex">
                     <label for="sa_phone" class="lebel">Телефон</label>
-                    <input type="text" class="form-control" id="sa_phone" placeholder="">
+                    <input id="phone-2" class="form-control" type="tel" name="phone" />
                     <div class="sms-reminder">Номер телефона используется ТОЛЬКО
                       для напоминания о вебинаре
                     </div>
@@ -273,19 +272,62 @@
               <li>Платные курсы прошло <span class="strong">8000+ </span>человек за 5 лет</li>
               <li>Лучший результат ученика <span class="strong">5 400 000+ </span>чел. в год</li>
             </ul>
+            <ul class="socnet flex margbot-1">
+              <li><a href="https://vk.com/pavelsite"><img class="socicon" src="assets/images/vk.png" alt=""></a></li>
+              <li><a href="https://www.instagram.com/_pavel_shulga/"><img class="socicon"
+                    src="assets/images/instagram.png" alt=""></a></li>
+              <li><a href="https://www.facebook.com/pavelshulgacom"><img class="socicon"
+                    src="assets/images/facebook.png" alt=""></a></li>
+            </ul>
           </div>
           <div class="speecher-photo columns align-items-center">
             <div class="pavel">
               <img src="assets/images/pavel.png" alt="">
             </div>
           </div>
+          <div></div>
         </div>
       </div>
     </main>
+    <footer class="footer gray-bg">
+      <div class="container">
+        <div class="row flex justify-content-center align-items-center">
+          <div class="footer-text order-3 order-l-1">
+            <span>Академия SEO 2013 - 2021 Все права защищены. ИП Шульга П.О. ОГРН №3324610793</span>
+          </div>
+          <div class="footer-logo order-1 order-l-2">
+            <picture><img class="footer-img" src="assets/images/logo-red.webp" alt=""></picture>
+          </div>
+          <div class="footer-phones order-2 order-l-3">
+            <div class="align-items-center"><a class="kiev-phone order-2 order-l-1" href="">+38 093 170 13 08</a><span
+                class="kiev order-1 order-l-2"> Украина, Киев</span></div>
+            <div class="align-items-center"><a class="msk-phine order-2 order-l-1" href="">+7 499 403 10 68</a><span
+                class="msk order-1 order-l-2"> Россия, Москва</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="container black-bg">
+        <div class="row flex justify-content-center">
+          <ul class="footer-menu flex">
+            <li><a href="">Политика конфиденциальности</a></li>
+            <li><a href="">Отказ от ответственности</a></li>
+            <li><a href="">Согласие с рассылкой</a></li>
+            <li><a href="">Гарантия возврата</a></li>
+            <li><a href="">Оферта</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
-  <div class="scroll block hiden">
-    <a href="#seo-app"><img class="skroll-button" src="assets/images/double-right.png" alt=""></a>
+  <div class="scroll-button block hiden align-items-center">
+    <a href="#seo-app"><img class="scroll-img" src="assets/images/double-right.png" alt=""></a>
   </div>
+
+
 </body>
+
+<script src="assets/js/scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script src="assets/js/phones.js"></script>
 
 </html>
