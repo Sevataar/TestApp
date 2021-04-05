@@ -295,6 +295,37 @@ img {
     font-size: 1.2rem;
 }
 
+#clockdiv{
+    font-family: sans-serif;
+    color: #f16334;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #fff;
+    display: inline-block;
+  }
+  
+  #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #000;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000;
+  }
+
+
 @media (min-width: 768px) {
     .timer {
         max-width: 83.33333%;
@@ -611,7 +642,7 @@ h3 {
 }
 
 .circle {
-    max-width: 15px;
+    max-width: 16px;
     margin-right: 10px;
 }
 
@@ -840,32 +871,3 @@ ul.achievments li {
     transition: .5s;
 }
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #f16334;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  #clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #fff;
-    display: inline-block;
-  }
-  
-  #clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #fff;
-    display: inline-block;
-    border: 1px solid #000;
-  }
-  
-  .smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-    color: #000;
-  }
