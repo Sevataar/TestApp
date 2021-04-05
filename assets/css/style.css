@@ -1,5 +1,5 @@
 body {
-    font-family: "Museo Sans", sans-serif;
+    font-family: "Museo Sans",sans-serif;
     font-weight: 300;
     line-height: 1.5;
     background: #fff;
@@ -107,10 +107,10 @@ ol {
 
 header {
     display: block;
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
     background-image: url(https://seo-akademiya.imgix.net/site-assets/dist/images/header-bg.jpg?q=75&fm=jpg&bg=white&w=1920&h=987&fit=crop&sat=-100);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
 }
