@@ -25,13 +25,13 @@
             <div class="logo margbot-1">
               <picture><img class="logo-img" src="assets/images/logo-red.webp" alt="Курсы SEO" title="Академия SEO" />
               </picture>
-              <div class="logo-intro hiden block">
+              <div class="logo-intro hidden block">
                 <p>Курсы по SEO №1 в СНГ</p>
               </div>
             </div>
             <div class="header-dates flex align-items-center">
               <div class="dates margbot-1 text-center flex">
-                <img class="calendar block hiden" src="assets/images/calendar.png" alt="">
+                <img class="calendar block hidden" src="assets/images/calendar.jpg" alt="">
                 <span class="main-dates text-center">
                   <span class="primary-color">11-12-13 марта</span> (чт-пт-сб) в 20:00, МСК
                 </span>
@@ -45,12 +45,30 @@
                 <h1 class="left-text-2 margbot-1 margbot-2">Самостотельно<br>В ТОП-3<br>Google и Яндекс</h1>
                 <div class="timer-container flex justify-content-center">
                   <div class="timer text-center">
-                    <div class="timer-border block text-center hiden">
-                      <div class="timer-info">90 секунд на получения бонуса</div>
+                    <div class="timer-border block text-center hidden">
+                      <div class="timer-info">90 секунд на получения бонуса:</div>
+                      <div id="clockdiv">
+                        <div class="hidden">
+                          <span class="days"></span>
+                          <div class="smalltext">День</div>
+                        </div>
+                        <div class="hidden">
+                          <span class="hours"></span>
+                          <div class="smalltext">Час</div>
+                        </div>
+                        <div>
+                          <span class="minutes"></span>
+                          <div class="smalltext">Минута</div>
+                        </div>
+                        <div>
+                          <span class="seconds"></span>
+                          <div class="smalltext">Секунд</div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="alert-container block hiden">
+                <div class="alert-container block hidden">
                   <div class="alert flex align-items-center">
                     <div class="alert-img">
                       <img src="assets/images/energy.svg" alt="" title="">
@@ -213,7 +231,7 @@
       </div>
       <div class="container">
         <div class="row align-items-center">
-          <div class="left-column block columns hiden">
+          <div class="left-column block columns hidden">
             <div class="services">
               <img src="assets/images/15-seo-logos-blur.png" alt="">
             </div>
@@ -269,18 +287,18 @@
               <li><img class="circle" src="assets/images/circle.jpg" alt="">Основатель и спикер <span
                   class="strong">Академии SEO</span></li>
               <li><img class="circle" src="assets/images/circle.jpg" alt=""><span class="strong">12 лет в теме
-                  SEO</span>и Аналитики</li>
+                  SEO</span> и Аналитики</li>
               <li><img class="circle" src="assets/images/circle.jpg" alt="">8 работающих бизнесов</li>
               <li><img class="circle" src="assets/images/circle.jpg" alt=""><span class="strong">5 000
-                  000+</span>посетителей в год на свои бизнесы</li>
+                  000+</span> посетителей в год на свои бизнесы</li>
               <li><img class="circle" src="assets/images/circle.jpg" alt="">$500 000 оборот компаний</li>
               <li><img class="circle" src="assets/images/circle.jpg" alt="">Руководитель веб-студии SAIT.UA</li>
-              <li><img class="circle" src="assets/images/circle.jpg" alt="">В 2020 году обучил онлайн<span
-                  class="strong">70 000+</span>человек</li>
-              <li><img class="circle" src="assets/images/circle.jpg" alt="">Платные курсы прошло<span
-                  class="strong">8000+</span>человек за 5 лет</li>
-              <li><img class="circle" src="assets/images/circle.jpg" alt="">Лучший результат ученика<span
-                  class="strong">5 400 000+</span>чел. в год</li>
+              <li><img class="circle" src="assets/images/circle.jpg" alt="">В 2020 году обучил онлайн <span
+                  class="strong">70 000+</span> человек</li>
+              <li><img class="circle" src="assets/images/circle.jpg" alt="">Платные курсы прошло <span
+                  class="strong">8000+</span> человек за 5 лет</li>
+              <li><img class="circle" src="assets/images/circle.jpg" alt="">Лучший результат ученика <span
+                  class="strong"> 5 400 000+ </span>чел. в год</li>
             </ul>
             <ul class="socnet flex margbot-1">
               <li><a href="https://vk.com/pavelsite"><img class="socicon" src="assets/images/vk.png" alt=""></a></li>
@@ -309,10 +327,10 @@
             <picture><img class="footer-img" src="assets/images/logo-red.webp" alt=""></picture>
           </div>
           <div class="footer-phones order-2 order-l-3">
-            <div class="align-items-center"><a class="kiev-phone order-2 order-l-1 orange" href="">+38 093 170 13 08</a><span
-                class="kiev order-1 order-l-2"> Украина, Киев</span></div>
-            <div class="align-items-center"><a class="msk-phine order-2 order-l-1 orange" href="">+7 499 403 10 68</a><span
-                class="msk order-1 order-l-2"> Россия, Москва</span></div>
+            <div class="align-items-center"><a class="kiev-phone order-2 order-l-1 orange" href="">+38 093 170 13
+                08</a><span class="kiev order-1 order-l-2"> Украина, Киев</span></div>
+            <div class="align-items-center"><a class="msk-phine order-2 order-l-1 orange" href="">+7 499 403 10
+                68</a><span class="msk order-1 order-l-2"> Россия, Москва</span></div>
           </div>
         </div>
       </div>
@@ -331,13 +349,15 @@
       </div>
     </footer>
   </div>
-  <div class="scroll-button block hiden align-items-center">
+  <div class="scroll-button block hidden align-items-center">
     <a href="#seo-app"><img class="scroll-img" src="assets/images/double-right.png" alt=""></a>
   </div>
 
 
 </body>
 
+
+<script src="assets/js/timer.js"></script>
 <script src="assets/js/scroll.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 <script src="assets/js/phones.js"></script>

@@ -157,8 +157,8 @@ img {
     }
 }
 
-.hiden {
-    display: none;
+.hidden {
+    display: none !important;
 }
 
 @media (min-width: 768px) {
@@ -176,6 +176,7 @@ img {
 
 .calendar{
     max-width: 25px;
+    max-height: 25px;
     margin-right: 15px;
 }
 
@@ -617,20 +618,7 @@ h3 {
 ul.achievments li {
     margin-bottom: 7px;
     list-style: none;
-    display: flex;
     align-items: center;
-}
-
-ul.achievments li:before {
-    font-weight: 900;
-    display: block;
-    position: absolute;
-    top: 0;
-    color: #f16334;
-    font-family: 'seoakademiya';
-    content: "\f111";
-    left: -1.5rem;
-    font-size: .75rem;
 }
 
 .speecher-photo {
@@ -694,8 +682,9 @@ ul.achievments li:before {
     transition: 0.3s;
 }
 
-.socnet li:hover {
+.socnet>li>a>img:hover {
     color: #ee543a;
+    transition: .5s;
 }
 
 .footer {
@@ -850,3 +839,33 @@ ul.achievments li:before {
     color: #f16334;
     transition: .5s;
 }
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #f16334;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #fff;
+    display: inline-block;
+  }
+  
+  #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #000;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000;
+  }
