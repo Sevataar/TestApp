@@ -1,0 +1,177 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trening-plan {
+    flex-wrap: wrap;
+}
+
+
+.left-trening,
+.right-trening {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+}
+
+.trening-text-1 {
+    line-height: 30px;
+    font-size: 23px;
+}
+
+.white-text {
+    background-color: #f16334;
+    color: #fff;
+}
+
+.list {
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.list>li{
+    list-style: decimal;
+}
+
+.schedule {
+    border-top: 5px solid #f16334;
+}
+
+.gray-text {
+    color: #999;
+}
+
+.date {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.event {
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .event {
+        max-width: 33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .event {
+        max-width: 25%;
+    }
+}
+
+.event-title {
+    border-bottom: 2px solid #000;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.event-text {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.services {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.speecher {
+    padding-bottom: 0;
+}
+
+.speecher-info {
+    flex-direction: column;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.achievments {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.circle {
+    max-width: 16px;
+    margin-right: 10px;
+}
+
+ul.achievments li {
+    margin-bottom: 7px;
+    list-style: none;
+    align-items: center;
+}
+
+.speecher-photo {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+    .speecher-info,
+    .speecher-photo {
+        max-width: 50%;
+    }
+}
+
+.pavel {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+
+.pavel>img {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .speecher-photo {
+
+        position: static;
+    }
+
+    .pavel {
+        position: static;
+    }
+}
+
+@media (max-width: 992px) {
+    .pavel {
+        max-width: 80%;
+        margin: auto;
+        padding-top: 15px;
+        height: auto;
+    }
+
+    .pavel>img {
+        height: auto;
+    }
+}
+
+.socnet {
+    list-style-type: none;
+}
+
+.socnet li {
+    max-width: 25px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.socnet>li>a>img:hover {
+    color: #ee543a;
+    transition: .5s;
+}
